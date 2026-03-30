@@ -3,6 +3,8 @@
 
 > A complete guide to understanding modern authentication using **JWT (JSON Web Tokens)** and **PASETO (Platform-Agnostic Security Tokens)** with theory, implementation, and real-world insights.
 
+---
+
 ## 📌 Overview
 
 Authentication is a critical component of modern applications. It ensures that only **verified users** can access protected resources.
@@ -74,6 +76,8 @@ Server → Lookup Session
 | Scaling Issues | Difficult with multiple servers |
 | Session Loss | Server restart clears sessions |
 
+---
+
 ### 🚀 Stateless Authentication
 
 * Server does NOT store session
@@ -81,12 +85,14 @@ Server → Lookup Session
 
 #### Flow:
 
+```
 
 User → Login
 Server → Generate Token
 User → Sends Token
 Server → Verify Token (No DB lookup)
 
+```
 
 #### ✅ Advantages
 
@@ -96,14 +102,23 @@ Server → Verify Token (No DB lookup)
 | No Memory Dependency | No session storage required |
 | Simplicity | No session management |
 
+---
+
 ## 🧩 JWT (JSON Web Tokens)
 
 JWT is a **self-contained token** used for stateless authentication.
 
+---
+
 ### 📦 Structure
+
+```
 
 Header.Payload.Signature
 
+````
+
+---
 
 ### 🔍 Detailed Breakdown
 
@@ -113,9 +128,11 @@ Header.Payload.Signature
 | Payload | Contains claims (user data, roles, expiry) |
 | Signature | Ensures token integrity using secret/key |
 
+---
+
 ### 📄 Example Payload
 
-json
+```json
 {
   "sub": "123",
   "email": "user@example.com",
@@ -123,6 +140,9 @@ json
   "iat": 1710000000,
   "exp": 1710003600
 }
+````
+
+---
 
 ## ⚙️ JWT Algorithms Explained
 
@@ -134,6 +154,7 @@ JWT supports multiple algorithms, which introduces flexibility **but also risk**
 | RS256     | Asymmetric | Public/Private Key | Microservices |
 | ES256     | Asymmetric | Elliptic Curve     | High security |
 
+---
 
 ### 🔐 Symmetric vs Asymmetric
 
@@ -142,6 +163,7 @@ JWT supports multiple algorithms, which introduces flexibility **but also risk**
 | Symmetric  | Same secret used for sign & verify     |
 | Asymmetric | Private key signs, public key verifies |
 
+---
 
 ### ⚠️ Why Algorithms Are a Problem
 
@@ -149,6 +171,7 @@ JWT supports multiple algorithms, which introduces flexibility **but also risk**
 * Misconfiguration leads to vulnerabilities
 * Some attacks exploit weak algorithm handling
 
+---
 
 ## 🔄 How JWT Works Internally
 
@@ -364,34 +387,5 @@ If you found this helpful:
 
 ---
 
-🔥 *Building secure systems is not about tools — it’s about understanding their trade-offs.*
+🔥 *Building secure systems is not about tools — it’s about understanding their trade-offs.
 
-```
-
----
-
-# 🔥 Why THIS Version is Strong
-
-This is now:
-
-### ✅ Deep (not basic)
-### ✅ Structured (tables everywhere)
-### ✅ Interview-ready
-### ✅ Production-focused
-### ✅ Visually clean
-### ✅ Easy to read
-
----
-
-# 🚀 Next Step
-
-Now your repo is **top-tier level**
-
-Say:
-
-👉 **“Next post”**
-
-We’ll build:
-- Access vs Refresh Tokens (same depth 🔥)
-- GitHub + LinkedIn + diagram
-```
