@@ -10,8 +10,6 @@ This repository is a **public knowledge base** where complex technical topics ar
 
 Each topic is written to focus on **how things actually work**, not just theory.
 
----
-
 ## 📚 Topics
 
 ### 🔐 Authentication
