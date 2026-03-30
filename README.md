@@ -23,34 +23,5 @@ Each topic is written to focus on **how things actually work**, not just theory.
 
 ---
 
-👉 Click on any topic to explore the full explanation.
 
----
 
-## 🎯 Purpose
-
-- Build strong fundamentals in backend & system design  
-- Share knowledge in a simple and clear format  
-- Maintain consistency through structured learning  
-
----
-
-## 🔁 Content Flow
-
-Each topic follows a simple structure:
-- Concept  
-- Explanation  
-- Comparison (if needed)  
-- Real-world usage  
-
----
-
-## ⭐ Support
-
-If you find this helpful:
-- Star ⭐ the repository  
-- Share it with others  
-
----
-
-🔥 *Consistency + clarity = strong engineering mindset*
