@@ -41,11 +41,11 @@ Modern systems face challenges with user access and identity:
 
 ---
 
-# 🧠 Core Concepts
+🧠 Core Concepts
 
 ---
 
-## 🔑 OAuth 2.0 (Authorization)
+🔑 OAuth 2.0 (Authorization)
 
 OAuth 2.0 is a protocol that allows applications to **access resources on behalf of a user** without exposing user credentials.
 
