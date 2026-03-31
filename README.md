@@ -14,7 +14,6 @@ Each topic is written to focus on **how things actually work**, not just theory.
 
 ### 🔐 Authentication
 - [JWT vs PASETO](topics/jwt-vs-paseto.md)
-
-
+- [Acess vs Refresh Token](topics/acess-vs-refresh-token.md)
 
 
