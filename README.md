@@ -16,5 +16,4 @@ Each topic is written to focus on **how things actually work**, not just theory.
 - [JWT vs PASETO](topics/jwt-vs-paseto.md)
 - [Acess vs Refresh Token](topics/acess-vs-refresh-token.md)
 - [OAuth vs OpenID Connect](topics/oauth-vs-openid-connect.md)
-
-
+- [Decode vs Verfiy](topics/jwt-decode-vs-verify.md)
