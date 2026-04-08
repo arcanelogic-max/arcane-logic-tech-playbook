@@ -1,22 +1,4 @@
-Got you — you’re aiming for that **clean, premium, “designed” GitHub README look** (like your JWT one), not just plain markdown.
 
-👉 The difference is **formatting tricks**, not content.
-
-Your Kafka README looked “bad” because it lacked:
-
-* visual separators
-* inline highlights (`code`)
-* callouts (`>`)
-* emojis + spacing rhythm
-* section styling consistency
-
----
-
-# ✅ Here’s your **GitHub-optimized version (same style as your JWT preview)**
-
-👉 Just copy-paste this EXACTLY into README.md
-
----
 
 # 🚀 Kafka — Deep Dive
 
