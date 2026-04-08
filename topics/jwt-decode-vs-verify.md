@@ -2,7 +2,7 @@
 
 # 🔐 JWT `decode` vs `verify` — Deep Dive
 
-> Understanding the critical difference between reading a JWT and trusting it — and how misuse leads to real-world security vulnerabilities
+> Understanding the critical difference between reading a JWT and trusting it — and how misuse leads to real-world security vulnerabilitie
 
 ---
 
